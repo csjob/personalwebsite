@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Niconne&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Teko:300,400&display=swap');
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,6 +16,7 @@ h6 {
 }
 
 p {
+    margin: 0;
     font-size: 1.35em;
     font-weight: 350;
 
