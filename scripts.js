@@ -1,8 +1,6 @@
 $(function () {
-    $('.hamburger-menu').on('click', function () {
-        $('.toggle').toggleClass('open');
-        $('.nav-list').toggleClass('open');
-
+    $('.js-scroll-trigger').click(function () {
+        $('.navbar-collapse').collapse('hide');
     });
 
     AOS.init({
